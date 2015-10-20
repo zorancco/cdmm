@@ -10,10 +10,10 @@ class Teams
         'PlantandNPI' => '#PLANT-KEY#',
         'IARC' => '#IARC-KEY#',
         'EOPS' => '#EOPS-KEY#',
-        'CET'  => '#CET--KEY#',
+        'CET'  => '#CET-KEY#',
         'OET'  => '#OET-KEY#',
         'Integration' => '#INTEGRATION-KEY#',
-        'Manhattan' => '#MANHATTAN--KEY#'
+        'Manhattan' => '#MANHATTAN-KEY#'
     ];
 
     public function getTeams()
