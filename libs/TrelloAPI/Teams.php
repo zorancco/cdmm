@@ -5,15 +5,15 @@ namespace zorancco\ApiClients\TrelloApi;
 class Teams
 {
     private $teams = [
-        'Frontend' => '',
-        'Backend' => '',
-        'PlantandNPI' => '',
-        'IARC' => '',
-        'EOPS' => '',
-        'CET'  => '',
-        'OET'  => '',
-        'Integration' => '',
-        'Manhattan' => ''
+        'Frontend' => '#FRONTEND-KEY#',
+        'Backend' => '#BACKEND-KEY#',
+        'PlantandNPI' => '#PLANT-KEY#',
+        'IARC' => '#IARC-KEY#',
+        'EOPS' => '#EOPS-KEY#',
+        'CET'  => '#CET--KEY#',
+        'OET'  => '#OET-KEY#',
+        'Integration' => '#INTEGRATION-KEY#',
+        'Manhattan' => '#MANHATTAN--KEY#'
     ];
 
     public function getTeams()

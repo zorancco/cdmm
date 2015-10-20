@@ -1,0 +1,21 @@
+{
+  "name": "zorancco/cdmm",
+  "description": "Continuous delivery maturity model admin dashboard",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zoranc",
+      "email": "zoranc.co@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "zorancco\\": "src/",
+      "zorancco\\libs\\": ""
+    }
+  }
+}
