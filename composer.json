@@ -14,8 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "zorancco\\": "src/",
-      "zorancco\\libs\\": ""
+      "zorancco\\": "src/"
     }
   }
 }
