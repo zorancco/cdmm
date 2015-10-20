@@ -1,0 +1,2 @@
+Options All -Indexes
+#RewriteEngine On RewriteCond %{HTTP_REFERER} !^$ RewriteCond %{HTTP_REFERER} !^http://10.41.14.96/.*$ [NC] RewriteRule \.(gif|jpg)$ http://10.41.14.96/hotlink.gif [R,L]
