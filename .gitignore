@@ -1,7 +1,5 @@
 vendor
 .idea/
 composer.lock
-responses.json
-response.json
 coverage.xml
 autoload.php
